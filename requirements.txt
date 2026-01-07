@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+pandas
+plotly
+stable-baselines3
+gymnasium
+streamlit
+paho-mqtt
