@@ -9,10 +9,10 @@ import ssl
 st.set_page_config(page_title="Residential Digital Twin | Home", layout="wide")
 
 # --- 2. HIVEMQ CLOUD CONNECTION SETTINGS ---
-MQTT_HOST = "cyanqueen-29ab69cf.a01.euc1.aws.hivemq.cloud"
+MQTT_HOST = "solar-demand-6cb31c1d.a03.euc1.aws.hivemq.cloud"
 MQTT_PORT = 8883
-MQTT_USER = "hivemq.client.1766925863216"
-MQTT_PASS = "6<9SwUoy#0D8*dI:CNir"
+MQTT_USER = "deva.kathir2008"
+MQTT_PASS = "Vijayarani@1234"
 
 def send_mqtt_command(is_on):
     """Sends a physical command using standard TCP on Port 8883."""
